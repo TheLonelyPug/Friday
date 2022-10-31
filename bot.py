@@ -18,7 +18,7 @@ async def on_ready():
     print('-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-')
 
 # the useless function
-ID = 1035664564404101142
+ID = your channel ID
 
 @aiocron.crontab('*0 12 * * FRI')
 async def cronjob1():
