@@ -20,7 +20,7 @@ async def on_ready():
 # the useless function
 ID = <CHANNEL ID>
 
-@aiocron.crontab('*/1 * * * *')
+@aiocron.crontab('0 12 * * FRI')
 async def cronjob1():
     channel = client.get_channel(ID)
     await channel.send(file=discord.File('friday.mp4'))
