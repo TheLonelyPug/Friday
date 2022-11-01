@@ -5,7 +5,8 @@
 | Discord.py 1.7.0 | [https://pypi.org/project/discord.py/1.7.0/] |
 | bot.py | [https://github.com/TheLonelyPug/Friday/blob/main/bot.py] |
 | .env | [Generate your own]
-| friday.mp4 | [https://github.com/TheLonelyPug/Friday/blob/main/friday.mp4] |
+| catfriday.mp4 | [https://github.com/TheLonelyPug/Friday/blob/dev/catfriday.mp4] |
+| alligatorfriday.mp4 | [https://github.com/TheLonelyPug/Friday/blob/dev/alligatorfriday.mp4]
 
 
 
