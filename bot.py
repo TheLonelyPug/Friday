@@ -1,7 +1,6 @@
 import discord
 import os
 import aiocron
-from discord.ext import commands
 from dotenv import load_dotenv
 
 # credentials
@@ -18,9 +17,9 @@ async def on_ready():
     print('-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-')
 
 # the useless function
-ID = <CHANNEL ID>
+ID = <Channel ID>
 
-@aiocron.crontab('0 12 * * FRI')
+@aiocron.crontab('*/1 * * * *')
 async def cronjob1():
     channel = client.get_channel(ID)
     await channel.send(file=discord.File('friday.mp4'))
