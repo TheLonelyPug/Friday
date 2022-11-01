@@ -17,12 +17,12 @@ async def on_ready():
     print('-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-')
 
 # the useless function
-ID = <Channel ID>
+ID = 1035664564404101142
 
 @aiocron.crontab('*/1 * * * *')
 async def cronjob1():
     channel = client.get_channel(ID)
-    await channel.send(file=discord.File('friday.mp4'))
+    await channel.send(file=discord.File('catfriday.mp4'))
     # print('Ignore this debugging message')
 
 # bot token
